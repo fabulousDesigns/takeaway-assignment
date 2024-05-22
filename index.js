@@ -13,7 +13,6 @@ const app = express();
 require("dotenv").config();
 // Configure the server to handle all types of HTTP requests to /graphql
 // Use the imported createHandler function to create a GraphQL handler
-
 app.all(
   "/graphql",
   createHandler({

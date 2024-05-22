@@ -113,7 +113,7 @@ This query will return the book's title, author, and pages, including the conten
 
 - `express`
 - `graphql`
-- `graphql-http`: 
+- `graphql-http`
 - `ruru`
 - `dotenv`
 - `nodemon`

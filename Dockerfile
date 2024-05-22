@@ -29,6 +29,7 @@ COPY --from=build /app/node_modules ./node_modules
 COPY --from=build /app/index.js ./index.js
 COPY --from=build /app/src ./src
 COPY --from=build /app/resources ./resources
+COPY --from=build /app/package*.json ./package*.json
 # Informs Docker that the container listens on the specified network ports at runtime
 #   - Port 5000 is commonly used for Node.js applications
 EXPOSE 5000
