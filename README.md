@@ -1,5 +1,3 @@
-## Book GraphQL Server
-
 This project is a GraphQL server that provides information about books. It allows you to query book data, including the title, author, pages, and page tokens. The server is built using Node.js, Express, and GraphQL.
 
 ### Getting Started
